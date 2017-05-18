@@ -1,5 +1,5 @@
 package chapter05;
-// use a for-each style loop
+// use a for each style loop
 public class ForEach2 {
 	public static void main (String args[]) {
 		int sum = 0;
