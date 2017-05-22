@@ -6,11 +6,11 @@ class Box {
 	double depth;
 	
     // This is the constructor for Box.
-	Box() {
+	Box(double w, double h, double d) {
 		System.out.println("Constructing Box");
-		width = 10;
-		height = 10;
-		depth = 10;
+		width = w;
+		height = h;
+		depth = d;
 	}
 	
 	// compute and return volume
