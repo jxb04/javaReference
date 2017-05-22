@@ -21,7 +21,6 @@ public class BoxDemo4 {
 		System.out.println("Volume is " + mybox1.volume());
 
 		// get volume of second box
-//		vol = mybox2.volume();
 		System.out.println("Volume is " + mybox2.volume());
 	}
 }
