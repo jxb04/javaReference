@@ -13,5 +13,11 @@ public class Test {
 		if (o.a == a && o.b == b) return true;
 		else return false;
 	}
+	
+	// pass an object 
+	void meth (Test o) {
+		o.a *= 2;
+		o.b /=2;
+	}
 
 }
