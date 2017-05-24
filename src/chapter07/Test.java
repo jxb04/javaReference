@@ -19,5 +19,16 @@ public class Test {
 		o.a *= 2;
 		o.b /=2;
 	}
+	
+	// return an object
+	
+	Test (int i) {
+		a = i;
+	}
+	
+	Test incrByTen() {
+		Test temp = new Test(a+10);
+		return temp;
+	}
 
 }
