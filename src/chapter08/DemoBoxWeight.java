@@ -47,7 +47,7 @@ class BoxWeight extends Box {
 		height = h;
 		depth = d;   */
 		// initialize width, height and depth using super()
-		super (w, d, h);  // call superclass constructor
+		super (w, h, d);  // call superclass constructor
 		weight = m;
 	}
 }
