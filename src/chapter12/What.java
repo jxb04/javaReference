@@ -2,7 +2,7 @@ package chapter12;
 
 import java.lang.annotation.*;
 
-@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE_PARAMETER)
 public @interface What {
 	String description();
 
