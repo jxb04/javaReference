@@ -3,7 +3,7 @@ package chapter12;
 import java.lang.reflect.*;
 
 // Use an annotation on a type parameter
-public class TypeAnnoDemo<@What(description = "Generic data type") T> {
+public class TypeAnnoDemo<@What2(description = "Generic data type") T> {
 	
 	// Use a type annotation on a constructor
 	public @Unique TypeAnnoDemo() {}
