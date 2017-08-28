@@ -2,7 +2,7 @@ package chapter13;
 
 // use static import to bring sqrt() and pow() into view
 
-import static java.lang.Math.sqrt;
+import static java.lang.Math.*;
 import static java.lang.Math.pow;
 
 // compute the hypotenuse of a right triangle
