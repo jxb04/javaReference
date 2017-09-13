@@ -13,6 +13,7 @@ public class Gen <T> {
 	
 	// return ob.
 	T getob() {
+		System.out.print("Gen's getob(): ");
 		return ob;
 	}
 	
