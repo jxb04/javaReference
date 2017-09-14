@@ -14,5 +14,5 @@ public class Gen2<T, V> extends Gen<T> {
 	V getob2() {
 		return ob2;
 	}
-
+	
 }
